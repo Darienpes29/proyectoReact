@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import TodoItem from './TodoItem';
 
+
 interface Todo {
   id: number;
   title: string;
@@ -25,6 +26,9 @@ const TodoList: React.FC = () => {
         title: newTodo.trim(),
         completed: false,
       };
+
+      <button>Prueba botón</button>
+
       setTodos([...todos, todo]);
       setNewTodo('');
     }
