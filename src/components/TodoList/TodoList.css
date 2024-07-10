@@ -1,0 +1,50 @@
+@import '../../colors.css';
+
+#todo-list-container {
+    width: 1000px;
+    height: 100%;
+    padding: 10px;
+    /* background-color: #77B0AA; */
+    
+}
+
+#search-container {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+#search-container input {
+    height: 40px;
+    border-radius: 15px;
+    width: 70% ;
+    background-color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+    color: white;
+    outline: none;
+
+    transition: border-color 0.3s; /* Transición suave para el cambio de color */
+
+    /* Borde cuando el input está enfocado */
+    &:focus {
+        border-color: var(--color-tertiary); /* Cambia el color según tus preferencias */
+    }
+}
+
+#search-container button {
+    cursor: pointer;
+    width: 100px;
+    background-color: var(--color-secondary);
+    border-radius: 15px;
+
+    &:hover {
+        background-color: var(--color-tertiary);
+        opacity: 0.5;
+    }
+}
+
+#task-container {
+    color: #E3FEF7;
+    border-radius: 20px;
+    background-color: #003459;
+}
