@@ -46,12 +46,12 @@
 }
 
 #task-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /*Agrupa y distribuye el espacio entre los elementos*/
+    flex-wrap: wrap; /*Permite repartir todos los elementos de la vista de forma horizontal (en fila) y hacia abajo*/
     gap: 20px; /*Espacio entre los elementos*/
-    justify-content: flex-start;
-    margin-top: 40px;
+    justify-content: flex-start; /*Permite poner los elementos desde el principio del contenedor, de izquierda a derecha*/
+    margin-top: 40px; /*Le da una separación al elemento en la parte superior*/
     /* background-color: red; */
-    justify-content: center;
-    width: 98%;
+    justify-content: center; /*Centra los elementos en un contenedor cuando se encuentra con display:flex*/
+    width: 98%; /*Establece el ancho del contenedor*/
   }
