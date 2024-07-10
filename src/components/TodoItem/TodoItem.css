@@ -1,15 +1,15 @@
-@import '../../colors.css';
+@import '../../colors.css'; /* Importa el archivo de estilos globales de colores */
 
 .completed {
-    color: var(--color-tertiary);
+    color: var(--color-tertiary); /* Color del texto para elementos completados */
 }
 
 .todo-item {
-    width: 250px; /*Establece el ancho del contenedor*/
-    padding: 10px; /*Da un espaciado en todas las partes del contenedor*/
-    border: 1px solid var(--color-tertiary);
-    border-radius: 8px;
-    background-color: var(--color-secondary);
-    color: var(--color-quartet);
-    margin-bottom: 15px;
-  }
+    width: 250px; /* Ancho del contenedor de cada ítem de tarea */
+    padding: 10px; /* Espaciado interno del contenedor */
+    border: 1px solid var(--color-tertiary); /* Borde del contenedor */
+    border-radius: 8px; /* Borde redondeado */
+    background-color: var(--color-secondary); /* Color de fondo desde variables */
+    color: var(--color-quartet); /* Color del texto desde variables */
+    margin-bottom: 15px; /* Margen inferior del contenedor */
+}
