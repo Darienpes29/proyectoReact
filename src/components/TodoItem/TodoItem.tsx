@@ -19,8 +19,14 @@ const TodoItem: React.FC<TodoItemProps> = ({ id, title, completed, category }) =
   return (
     <div className='todo-item'> {/* Contenedor principal del ítem de la tarea */}
       <h5>{id}</h5> {/* ID de la tarea */}
-      <h3>Task: {title}</h3> {/* Título de la tarea */}
-      <p>Category: {category}</p> {/* Categoría de la tarea */}
+      <h3>
+        <span className='titItem'>Task: </span>
+        <span>{title}</span>
+      </h3> {/* Título de la tarea */}
+      <p>
+       <span className='catItem'>Category: </span>
+       <span>{category}</span>
+      </p> {/* Categoría de la tarea */}
       <div style={{ display: 'flex', justifyContent: 'center' }}  > {/* Contenedor para alinear elementos horizontalmente */}
         <p className={isChecked ? 'completed' : 'not-completed'} style={{ textDecoration: isChecked ? 'line-through' : 'none' , marginRight: '5px'}}> {/* Texto de estado de completado */}
           {isChecked ? 'Completed' : 'Not Completed'}

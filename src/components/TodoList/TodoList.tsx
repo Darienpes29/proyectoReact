@@ -58,6 +58,7 @@ const TodoList: React.FC = () => {
       <form onSubmit={handleAddTodo}>
         <div id='search-container'>
           <input
+            className='txtSearch'
             type="text"
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}
@@ -72,7 +73,7 @@ const TodoList: React.FC = () => {
             </Dropdown>
           </Space>
 
-          <button type="submit" id='add-button'>Add Todo</button> {/* Botón para agregar una nueva tarea */}
+          <button className='add-button' type="submit" id='add-button'>Add Todo</button> {/* Botón para agregar una nueva tarea */}
         </div>
       </form>
 
