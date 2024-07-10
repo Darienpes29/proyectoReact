@@ -32,14 +32,16 @@
 }
 
 #search-container button {
+    color: white;
     cursor: pointer;
     width: 100px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     border-radius: 15px;
+    border: 2px solid var(--color-tertiary);
+    transition: color 0.5s; 
 
     &:hover {
-        background-color: var(--color-tertiary);
-        opacity: 0.5;
+        color: var(--color-secondary);
     }
 }
 
