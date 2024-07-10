@@ -28,7 +28,8 @@
   }
 }
 
-#search-container button {
+#search-container #add-button {
+  height: 50px;
   color: white; /* Color del texto del botón */
   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
   width: 100px; /* Ancho fijo del botón */
@@ -58,8 +59,9 @@
 
 /* Estilo para el botón del Dropdown */
 .ant-btn {
-  border-radius: 10px; /* Borde redondeado */
-  height: 40px; /* Altura del botón */
+  border-radius: 15px; /* Borde redondeado */
+  border: 2px solid var(--color-tertiary); /* Borde del botón */
+  height: 50px; /* Altura del botón */
   background-color: var(--color-tertiary); /* Color de fondo desde variables */
   color: var(--color-quartet); /* Color del texto desde variables */
 }
@@ -76,11 +78,6 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Sombra del menú */
 }
 
-/* Estilo para los items del menú */
-#todo-list-container .category-dropdown .ant-dropdown-menu-item {
-  color: red; /* Color del texto de los items */
-}
-
 :where(.css-dev-only-do-not-override-98ntnt).ant-dropdown .ant-dropdown-menu {
   /* Estilos personalizados para los menús desplegables */
   background-color: var(--color-secondary); /* Color de fondo desde variables */
@@ -90,7 +87,8 @@
 :where(.css-dev-only-do-not-override-98ntnt).ant-dropdown .ant-dropdown-menu li {
   /* Estilos personalizados para el texto dentro de los elementos del menú */
   color: white !important; /* Color del texto importante */
-  
+  transition: color 0.5s; /* Transición suave para el color del texto */
+
   /* Estilo al pasar el cursor sobre los elementos del menú */
   &:hover {
       color: var(--color-tertiary) !important; /* Cambia el color del texto al pasar el cursor */
