@@ -14,8 +14,8 @@ interface Todo {
 
 const TodoList: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([
-    { id: 1, title: 'Learn TypeScript', completed: false, category: 'Work' },
-    { id: 2, title: 'Build a React App', completed: false, category: 'Work' },
+    // { id: 1, title: 'Learn TypeScript', completed: false, category: 'Work' },
+    // { id: 2, title: 'Build a React App', completed: false, category: 'Work' },
   ]);
 
   const [newTodo, setNewTodo] = useState<string>('');
