@@ -1,57 +1,100 @@
-@import '../../colors.css';
+@import '../../colors.css'; /* Importa el archivo de estilos globales de colores */
 
 #todo-list-container {
-    width: 1000px;
-    height: 100%;
-    padding: 10px;
-    /* background-color: #77B0AA; */
-    
+  width: 1000px; /* Ancho fijo del contenedor principal */
+  height: 100%; /* Altura ocupando el espacio disponible */
+  padding: 10px; /* Espaciado interno del contenedor */
 }
 
 #search-container {
-    display: flex;
-    justify-content: space-around;
-    /* background-color: red; */
+  display: flex; /* Contenedor de búsqueda con elementos en línea */
+  justify-content: space-around; /* Distribución equitativa de elementos con espacio alrededor */
 }
 
 #search-container input {
-    height: 40px;
-    border-radius: 15px;
-    width: 70% ;
-    background-color: var(--color-secondary);
-    border: 2px solid var(--color-secondary);
-    color: white;
-    outline: none;
+  height: 40px; /* Altura del input */
+  border-radius: 15px; /* Borde redondeado */
+  width: 70%; /* Ancho del input */
+  background-color: var(--color-secondary); /* Color de fondo del input desde variables */
+  border: 2px solid var(--color-secondary); /* Borde del input */
+  color: white; /* Color del texto */
+  outline: none; /* Elimina el contorno al estar enfocado */
 
-    transition: border-color 0.3s; /* Transición suave para el cambio de color */
+  transition: border-color 0.3s; /* Transición suave para el color del borde */
 
-    /* Borde cuando el input está enfocado */
-    &:focus {
-        border-color: var(--color-tertiary); /* Cambia el color según tus preferencias */
-    }
+  /* Estilo cuando el input está enfocado */
+  &:focus {
+      border-color: var(--color-tertiary); /* Cambia el color del borde al estar enfocado */
+  }
 }
 
 #search-container button {
-    color: white;
-    cursor: pointer;
-    width: 100px;
-    background-color: var(--color-tertiary);
-    border-radius: 15px;
-    border: 2px solid var(--color-tertiary);
-    transition: color 0.5s; 
+  color: white; /* Color del texto del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  width: 100px; /* Ancho fijo del botón */
+  background-color: var(--color-tertiary); /* Color de fondo del botón desde variables */
+  border-radius: 15px; /* Borde redondeado */
+  border: 2px solid var(--color-tertiary); /* Borde del botón */
+  transition: color 0.5s; /* Transición suave para el color del texto */
 
-    &:hover {
-        color: var(--color-secondary);
-    }
+  /* Estilo cuando el cursor pasa sobre el botón */
+  &:hover {
+      color: var(--color-secondary); /* Cambia el color del texto al pasar el cursor */
+  }
 }
 
 #task-container {
-    display: flex; /*Agrupa y distribuye el espacio entre los elementos*/
-    flex-wrap: wrap; /*Permite repartir todos los elementos de la vista de forma horizontal (en fila) y hacia abajo*/
-    gap: 20px; /*Espacio entre los elementos*/
-    justify-content: flex-start; /*Permite poner los elementos desde el principio del contenedor, de izquierda a derecha*/
-    margin-top: 40px; /*Le da una separación al elemento en la parte superior*/
-    /* background-color: red; */
-    justify-content: center; /*Centra los elementos en un contenedor cuando se encuentra con display:flex*/
-    width: 98%; /*Establece el ancho del contenedor*/
+  display: flex; /* Contenedor de tareas con elementos en línea */
+  flex-wrap: wrap; /* Envuelve las tareas en múltiples líneas si exceden el ancho */
+  gap: 20px; /* Espacio entre los elementos */
+  justify-content: flex-start; /* Alinea los elementos desde el principio */
+  margin-top: 40px; /* Margen superior */
+  /* background-color: red; */ /* Color de fondo comentado */
+  justify-content: center; /* Centra los elementos en el contenedor */
+  width: 98%; /* Ancho del contenedor */
+}
+
+/* Estilo para personalizar un componente de Ant Design */
+
+/* Estilo para el botón del Dropdown */
+.ant-btn {
+  border-radius: 10px; /* Borde redondeado */
+  height: 40px; /* Altura del botón */
+  background-color: var(--color-tertiary); /* Color de fondo desde variables */
+  color: var(--color-quartet); /* Color del texto desde variables */
+}
+
+#todo-list-container .ant-btn:hover {
+  background-color: var(--color-secondary); /* Cambia el color de fondo al pasar el cursor */
+  color: var(--color-tertiary); /* Cambia el color del texto al pasar el cursor */
+}
+
+/* Estilo para el menú del Dropdown */
+#todo-list-container .category-dropdown .ant-dropdown-menu {
+  background-color: #ffffff; /* Color de fondo del menú */
+  border: 1px solid #e8e8e8; /* Borde del menú */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Sombra del menú */
+}
+
+/* Estilo para los items del menú */
+#todo-list-container .category-dropdown .ant-dropdown-menu-item {
+  color: red; /* Color del texto de los items */
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-dropdown .ant-dropdown-menu {
+  /* Estilos personalizados para los menús desplegables */
+  background-color: var(--color-secondary); /* Color de fondo desde variables */
+  border: 2px solid var(--color-tertiary); /* Borde desde variables */
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-dropdown .ant-dropdown-menu li {
+  /* Estilos personalizados para el texto dentro de los elementos del menú */
+  color: white !important; /* Color del texto importante */
+  
+  /* Estilo al pasar el cursor sobre los elementos del menú */
+  &:hover {
+      color: var(--color-tertiary) !important; /* Cambia el color del texto al pasar el cursor */
   }
+}
+
+
