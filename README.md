@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+Bienvenido a nuestro sistema de información, si desea ejecutar este proyecto en su máquina debe seguir con los siguientes pasos:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Instalación de programas requeridos
 
-## Available Scripts
+Asegúrate de tener instalado Node.js, Visual Studio Code (VS Code) y npm en tu PC.
 
-In the project directory, you can run:
+Si aún no cuentas con Node.js, puedes descargarlo a través del siguiente enlace:
+	https://nodejs.org/en  
 
-### `npm start`
+Si necesitas instalar Visual Studio Code, lo puedes hacer a través del siguiente enlace:
+	https://code.visualstudio.com/download  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para la instalación de npm necesitamos la consola de Windows, para esto, presionamos la tecla de Windows y buscamos ‘cmd’, damos Enter y al abrirse la consola ejecutamos el comando ‘npm install’.
+Al ejecutarse este comando lo que hace es instalar todas las dependencias que sean necesarias para la buena ejecución de los programas.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Instalación y configuración del proyecto
 
-### `npm test`
+Para instalar el proyecto en su máquina debe dar clic en el botón verde ‘<> Code’ que se encuentra en la parte superior derecha en GitHub y después dar clic en la última opción, en Download ZIP.
+Una vez descargado el archivo .zip, lo descomprimimos dando clic derecho y damos clic en la opción ‘Extraer aquí’.
+Posterior a esto, abrimos Visual Studio Code, y presionamos las teclas Ctrl + K + Ctrl + O y abrimos la carpeta del archivo descomprimido.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Ejecución del proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Una vez se hayan instalado todos los programas necesarios y se haya configurado el proyecto en Visual Studio Code, ya podemos ejecutar nuestro proyecto, para esto, abrimos la consola en VS Code presionando las teclas Ctrl + Shift + Ñ y ejecutamos los comandos ‘npm install’ y posterior a este ‘npm start’.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+Happy coding!
+
