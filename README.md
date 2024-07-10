@@ -22,7 +22,7 @@ Posterior a esto, abrimos Visual Studio Code, y presionamos las teclas <b>Ctrl +
 
 Una vez se hayan instalado todos los programas necesarios y se haya configurado el proyecto en Visual Studio Code, ya podemos ejecutar nuestro proyecto, para esto, abrimos la consola en VS Code presionando las teclas <b>Ctrl + Shift + Ñ</b> y ejecutamos los comandos <b><i>‘npm install’</i></b> y posterior a este, <b><i>‘npm start’</i></b>.
 
-<i><b>Nota:</b> La primera vez que se ejecuta el comando 'npm install', no hay necesidad de escribirlo cada vez que se ejecute el proyecto.</i>
+<i><b>Nota:</b> La primera vez que se ejecuta el comando <b>'npm install'</b>, no hay necesidad de escribirlo cada vez que se ejecute el proyecto.</i>
 
 Despúes de haber seguido estos pasos ya podrás ejecutar el proyecto sin problema.
 
