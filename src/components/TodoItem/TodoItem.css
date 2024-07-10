@@ -13,3 +13,11 @@
     color: var(--color-quartet); /* Color del texto desde variables */
     margin-bottom: 15px; /* Margen inferior del contenedor */
 }
+
+.titItem{
+    color: var(--color-tertiary);
+}
+
+.catItem{
+    color: var(--color-tertiary);
+}

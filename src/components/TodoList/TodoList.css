@@ -95,4 +95,33 @@
   }
 }
 
+@media (max-width: 750px) {
+  #search-container input{
+    width: 60%;
+  }
+}
 
+@media (max-width: 570px) {
+  #search-container input{
+    width: 50%;
+  }
+}
+
+@media (max-width: 560px) {
+  #search-container input{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  #search-container{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .category-dropdown {
+    margin-left: 70px;
+  }
+  .add-button{
+    color: red;
+    margin-right: 60px;
+  }
+}
