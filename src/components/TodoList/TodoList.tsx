@@ -72,7 +72,7 @@ const TodoList: React.FC = () => {
             </Dropdown>
           </Space>
 
-          <button type="submit">Add Todo</button> {/* Botón para agregar una nueva tarea */}
+          <button type="submit" id='add-button'>Add Todo</button> {/* Botón para agregar una nueva tarea */}
         </div>
       </form>
 
