@@ -8,7 +8,7 @@ Si aún no cuentas con Node.js, puedes descargarlo a través del siguiente enlac
 
 Si necesitas instalar Visual Studio Code, lo puedes hacer entrando al siguiente enlace: https://code.visualstudio.com/download  
 
-Para la instalación de npm necesitamos la consola de Windows, para esto, presionamos la tecla de Windows (⊞) y buscamos ‘cmd’, damos Enter y al abrirse la consola ejecutamos el comando ‘npm install’.
+Para la instalación de npm necesitamos la consola de Windows, para esto, presionamos la tecla de Windows y buscamos ‘cmd’, damos Enter y al abrirse la consola ejecutamos el comando ‘npm install’.
 Al ejecutarse este comando lo que hace es instalar todas las dependencias que sean necesarias para la buena ejecución de los programas.
 
 <h3>Instalación y configuración del proyecto</h3>
