@@ -9,15 +9,17 @@ interface Todo {
   id: number;
   title: string;
   completed: boolean;
+  category: string;
 }
 
 const TodoList: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([
-    { id: 1, title: 'Learn TypeScript', completed: false },
-    { id: 2, title: 'Build a React App', completed: false },
+    { id: 1, title: 'Learn TypeScript', completed: false, category: 'Work' },
+    { id: 2, title: 'Build a React App', completed: false, category: 'Work' },
   ]);
 
   const [newTodo, setNewTodo] = useState<string>('');
+  const [selectedCategory, setSelectedCategory] = useState<string>('');
 
   const handleAddTodo = (event: React.FormEvent) => {
     event.preventDefault();
@@ -26,12 +28,14 @@ const TodoList: React.FC = () => {
         id: todos.length + 1,
         title: newTodo.trim(),
         completed: false,
+        category: selectedCategory,
       };
 
       <button>Prueba botón</button>
 
       setTodos([...todos, todo]);
       setNewTodo('');
+      setSelectedCategory(''); // Reiniciar la categoría seleccionada
     }
   };
 
@@ -47,6 +51,15 @@ const TodoList: React.FC = () => {
             placeholder="New Todo"
             required
           />
+
+          <select id='category-select' onChange={(e) => setSelectedCategory(e.target.value)}>
+            <option value="">Select Category</option>
+            <option value="work">Work</option>
+            <option value="personal">Personal</option>
+            <option value="other">Other</option>
+          </select>
+
+          
           <button type="submit">Add Todo</button>
         </div>
         
@@ -59,6 +72,7 @@ const TodoList: React.FC = () => {
             id={todo.id}
             title={todo.title}
             completed={todo.completed}
+            category={todo.category}
           />
         ))}
       </div>

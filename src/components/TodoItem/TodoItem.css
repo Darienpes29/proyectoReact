@@ -1,0 +1,5 @@
+@import '../../colors.css';
+
+.completed {
+    color: var(--color-tertiary);
+}
