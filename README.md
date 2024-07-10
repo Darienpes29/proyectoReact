@@ -2,16 +2,14 @@
 
 <h3>Instalación de programas requeridos</h3>
 
-  Asegúrate de tener instalado Node.js, Visual Studio Code (VS Code) y npm en tu PC.
+  <p style="text-align: center">Asegúrate de tener instalado Node.js, Visual Studio Code (VS Code) y npm en tu PC.
   
-  Si aún no cuentas con Node.js, puedes descargarlo a través del siguiente enlace:
-  •	https://nodejs.org/en 
+  Si aún no cuentas con Node.js, puedes descargarlo a través del siguiente enlace: https://nodejs.org/en 
   
-  Si necesitas instalar Visual Studio Code, lo puedes hacer a través del siguiente enlace:
-  •	https://code.visualstudio.com/download  
+  Si necesitas instalar Visual Studio Code, lo puedes hacer a través del siguiente enlace: https://code.visualstudio.com/download  
   
   Para la instalación de npm necesitamos la consola de Windows, para esto, presionamos la tecla de Windows y buscamos ‘cmd’, damos Enter y al abrirse la consola ejecutamos el comando ‘npm install’.
-  Al ejecutarse este comando lo que hace es instalar todas las dependencias que sean necesarias para la buena ejecución de los programas.
+  Al ejecutarse este comando lo que hace es instalar todas las dependencias que sean necesarias para la buena ejecución de los programas.</p>
 
 <h3>Instalación y configuración del proyecto</h3>
 
