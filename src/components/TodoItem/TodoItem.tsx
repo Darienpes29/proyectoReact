@@ -18,7 +18,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ id, title, completed, category }) =
   };
 
   return (
-    <div>
+    <div className='todo-item'>
       <h5>{id}</h5>
       <h3>Task: {title}</h3>
       <p>Category: {category}</p>

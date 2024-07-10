@@ -3,3 +3,12 @@
 .completed {
     color: var(--color-tertiary);
 }
+
+.todo-item {
+    width: 250px; /* O el ancho que prefieras */
+    padding: 15px;
+    border: 1px solid var(--color-tertiary);
+    border-radius: 8px;
+    background-color: var(--color-secondary);
+    color: var(--color-quartet);
+  }
