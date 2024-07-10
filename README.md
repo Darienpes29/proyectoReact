@@ -2,7 +2,7 @@
 
 <h3>Instalación de programas requeridos</h3>
 
-  <p style="text-align: justify">Asegúrate de tener instalado Node.js, Visual Studio Code (VS Code) y npm en tu PC.
+  <p style="text-align: justify; color: red">Asegúrate de tener instalado Node.js, Visual Studio Code (VS Code) y npm en tu PC.
   
   Si aún no cuentas con Node.js, puedes descargarlo a través del siguiente enlace: https://nodejs.org/en 
   
